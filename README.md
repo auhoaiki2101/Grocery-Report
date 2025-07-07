@@ -1,5 +1,6 @@
 # Grocery - Report
 
+- Use AWS cloud platform to store data, then use Snowflake to get data from AWS. Then connect to Power BI to make reports.
 - The aim this report is to evaluate and understand the overall sales performance of the grocery store chain, while also identifying the key factors influencing revenue and the number of items sold.
 - Help managers make data-driven decisions to optimize sales strategies, product portfolio management, and store operations.
 
@@ -10,7 +11,7 @@ Reference documents and datasets: [Amazing Real Time Power BI Project](https://w
 ### Dataset Description
 
 - Grocery dataset has collected sales data from the year 2011. Where the dataset consists of 12 attributes like Item Fat Content, Item Identifier, Item Type, Item Visibility, Item Weight, Outlet Identifier, Outlet Establishment Year, Outlet Location Type, Outlet Size, Outlet Type, Sales and Rating. 
-- Mini project
+- Mini project.
 
 ### Data Detail
 
@@ -29,3 +30,13 @@ The data has 8523 rows of 12 variables.
   + Outlet_Type- Whether the outlet is just a grocery store or some sort of supermarket
   + Sales - Sales of the product.
   + Rating - Customer reviews of store products or services (1 - 5).
+
+## Setup
+
+### AWS
+
+1. Create S3 Bucket on AWS
+
+### Snowflake
+
+
