@@ -37,12 +37,27 @@ The data has 8523 rows of 12 variables.
 
 1. Create S3 Bucket on AWS & Loading Data
 - Create Buckets: powerbi.project.s1
+
 <img width="1394" height="683" alt="image" src="https://github.com/user-attachments/assets/7a40a93b-50ae-4bc4-b39d-a7e3fb52b315" />
 
 - Loading Data into bucket:
+
 <img width="1861" height="540" alt="image" src="https://github.com/user-attachments/assets/50c86b26-0f18-4c17-9747-9cb21472c67a" />
 
-2. 
+2. Creating the Role
+- Select trusted entity:
+
+<img width="1614" height="756" alt="image" src="https://github.com/user-attachments/assets/f0c46c80-f4ac-44cf-9fa3-3ca8a2f906dd" />
+
+- Add permissions:
+
+<img width="1523" height="502" alt="image" src="https://github.com/user-attachments/assets/a447dc62-79d7-4913-89a5-2c1249ae2772" />
+
+- Name, review, and create:
+
+<img width="1517" height="705" alt="image" src="https://github.com/user-attachments/assets/183773a5-9c0e-4208-83ad-40ae15015d1e" />
+
+
 ### Snowflake
 
 ### Connect to Power BI
