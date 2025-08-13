@@ -35,8 +35,12 @@ The data has 8523 rows of 12 variables.
 
 ### AWS
 
-1. Create S3 Bucket on AWS
-
+1. Create S3 Bucket on AWS & Loading Data
+- Create Buckets: powerbi.project.s1
+<img width="1394" height="683" alt="image" src="https://github.com/user-attachments/assets/7a40a93b-50ae-4bc4-b39d-a7e3fb52b315" />
+- Loading Data into bucket:
+<img width="1861" height="540" alt="image" src="https://github.com/user-attachments/assets/50c86b26-0f18-4c17-9747-9cb21472c67a" />
+2. 
 ### Snowflake
 
 ### Connect to Power BI
