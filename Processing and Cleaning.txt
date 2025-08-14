@@ -1,0 +1,13 @@
+SELECT DISTINCT ITEM_FAT_CONTENT
+FROM PBI_DATASET
+
+UPDATE PBI_Dataset
+SET
+    ITEM_FAT_CONTENT = CASE
+        WHEN ITEM_FAT_CONTENT IN ('LF', 'low fat') THEN 'Low Fat'
+        WHEN ITEM_FAT_CONTENT = 'reg' THEN 'Regular'
+        ELSE ITEM_FAT_CONTENT
+    END;
+
+select * from PBI_Dataset;
+
