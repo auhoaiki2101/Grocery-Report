@@ -59,45 +59,65 @@ The data has 8523 rows of 12 variables.
 
 ### Snowflake
 
-1. Creating the Integration Object & Updating the Trust Policy
-- Creating the Integration Object
+1. Creating the Integration Object & Updating the Trust Policy.
+- Creating the Integration Object.
 
 <img width="761" height="317" alt="image" src="https://github.com/user-attachments/assets/da162d8f-e6d8-4844-9ea8-7e49ec58ebd0" />
 
-- Run **desc integration PBI_Integration;**
+- Run **desc integration PBI_Integration;**:
 
 <img width="1264" height="382" alt="image" src="https://github.com/user-attachments/assets/79620d3e-d674-4cf5-99a5-144f9e3e016c" />
 
-- Copy **'proprety_value'** for **STOAGE_AWS_IAM_USER_ARN** and **STORAGE_AWS_EXTERNAL_ID**
+- Copy **'proprety_value'** for **STOAGE_AWS_IAM_USER_ARN** and **STORAGE_AWS_EXTERNAL_ID**:
 
 <img width="1264" height="382" alt="image" src="https://github.com/user-attachments/assets/df3562b9-8290-49cb-9eb0-d6a4ee432c7b" />
 
 <img width="1252" height="371" alt="image" src="https://github.com/user-attachments/assets/18eca092-3c8a-429f-949c-ca7ff02aa932" />
 
-- Past it in **Trust Policy** on **AWS IAM** and **Save**
+- Paste it in **Trust Policy** on **AWS IAM** and **Save**:
 
 <img width="944" height="576" alt="image" src="https://github.com/user-attachments/assets/b6980d00-54ba-4723-bacf-1c817f64ad72" />
 
 2. Loading Data into Snowflake.
 
-- Create Database, schema and table
+- Create Database, schema and table:
 
 <img width="394" height="374" alt="image" src="https://github.com/user-attachments/assets/a477b02c-541a-4fe7-98aa-51adfb85b9c1" />
 
-- Create stage
+- Create stage:
 
 <img width="408" height="81" alt="image" src="https://github.com/user-attachments/assets/998a0acb-f074-4c9b-b832-914d75679885" />
 
-- Copy data into PBI_Dataset
+- Copy data into PBI_Dataset:
 
 <img width="1199" height="263" alt="image" src="https://github.com/user-attachments/assets/7557faae-1fe8-446a-b6ca-da97c923af6a" />
 
-- Show dataset
+- Show dataset:
 
 <img width="1247" height="784" alt="image" src="https://github.com/user-attachments/assets/8cbcd661-aa37-4b5f-afb4-d1f77f34bf54" />
 
-3. Processing and Cleaning Dataset
+### Connect to Power BI.
+- Find Snowflake on PowerBI:
 
+<img width="1458" height="849" alt="image" src="https://github.com/user-attachments/assets/f679f3fd-f1c9-46ef-be98-6564b9491a4b" />
 
-### Connect to Power BI
+- Copy **Server URL**:
+
+<img width="889" height="633" alt="image" src="https://github.com/user-attachments/assets/3be46631-bd20-47d2-bc65-0e42001dc9a3" />
+
+- Paste in **Server name** on Snowflake and choice your **Warehouse**:
+
+<img width="711" height="285" alt="image" src="https://github.com/user-attachments/assets/9c9bc600-b94a-43e8-8d6e-a19e04f84d10" />
+
+- Sign in on this:
+
+<img width="698" height="251" alt="image" src="https://github.com/user-attachments/assets/dede2335-58d3-4bed-91ab-8c5c7cb0d009" />
+
+- Find your dataset and **Load**:
+
+<img width="884" height="703" alt="image" src="https://github.com/user-attachments/assets/35800fe5-3afb-455e-993a-9b14e51ae9f1" />
+
+- Complete:
+
+<img width="1910" height="862" alt="image" src="https://github.com/user-attachments/assets/36c2c7da-29b9-4dad-b5ab-9c2bc6d816dc" />
 
