@@ -109,7 +109,7 @@ The data has 8523 rows of 12 variables.
 
 <img width="711" height="285" alt="image" src="https://github.com/user-attachments/assets/9c9bc600-b94a-43e8-8d6e-a19e04f84d10" />
 
-- Sign in on this:
+- Sign in **username** and **password** on this:
 
 <img width="698" height="251" alt="image" src="https://github.com/user-attachments/assets/dede2335-58d3-4bed-91ab-8c5c7cb0d009" />
 
